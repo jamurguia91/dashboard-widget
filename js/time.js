@@ -26,8 +26,12 @@ Format Data
 const gotAmOrPM = gotHours >= 12 ? 'PM' : 'AM';
 // Get 12 hour format
 gotHours = gotHours % 12 || 12;
+
+
+//play around with the zeros for this 
 // Optionally, append zero to single digit hours
-gotHours = gotHours < 10 ? `0${gotHours}` : gotHours;   
+gotHours = gotHours < 10 ? `0${gotHours}` : gotHours;  
+
 // Optionally, append zero to single digit minutes
 gotMinutes = gotMinutes < 10 ? `0${gotMinutes}` : gotMinutes;
 // Optionally, append zero to single digit seconds
