@@ -1,14 +1,41 @@
 /* Grid */
 .layout { 
   display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, 1fr); 
+  grid-template-columns: 1fr 1fr 2fr; 
+  grid-template-rows: 1fr 2fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px; 
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* would like to center this layout in the center of page */
   }
-  .time { grid-area: 1 / 1 / 2 / 2; } 
-  .date { grid-area: 1 / 2 / 2 / 3; } 
-  .weather { grid-area: 2 / 1 / 3 / 3; } 
+  .time {
+    background-color: #699DFD; 
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 2;
+  }
+
+  .date { 
+    background-color: #CF996D; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+   } 
+
+  .weather { 
+    background-color: #B8577D; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   } 
 
 /* Widgets */
 section {
