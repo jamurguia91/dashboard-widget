@@ -1,4 +1,4 @@
-@import url(bevellier.css);
+@import url(satoshi.css);
 
 /* Grid */
 .layout { 
@@ -20,7 +20,7 @@
   grid-row-end: 2;
   grid-column-end: 2;
 
-  font-family: 'Bevellier-Light';
+  font-family: 'Satoshi-Light';
   /* Cant get my text to change style */
   }
 
