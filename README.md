@@ -1,18 +1,43 @@
-# Dashboard Widgets
+# Installing Webfonts
+Follow these simple Steps.
 
-## What Is This?
-The concept of a Dashboard appears nearly everywhere. Most obvious are car dashboards with displays of speed, mileage, and navigation. Less obvious examples are: the FaceBook banner with notifications, informational displays in lobbies, and “widgets” on iOS and Android. A portion of a larger display is a widget.
+## 1.
+Put `bevellier/` Folder into a Folder called `fonts/`.
 
-* [Android Widgets](https://developer.android.com/guide/topics/appwidgets/overview)
-* [iOS Widgets](https://www.imore.com/widgets-ios-8-explained)
+## 2.
+Put `bevellier.css` into your `css/` Folder.
 
-## Why Does This Exist?
-* Application of Dashboard Design concepts
-* APIs allows for alternative User Interfaces for same information
-* Real products and real data, versus static prototypes
-* Dashboards convey information in real-time — without prompting
-* Apply concepts from Web Design 1 and 2 with APIs from Web 3
+## 3. (Optional)
+You may adapt the `url('path')` in `bevellier.css` depends on your Website Filesystem.
 
-## Citations
-List your sources here
-grid generator used - [https://angrytools.com/css-grid/]
+## 4.
+Import `bevellier.css` at the top of you main Stylesheet.
+
+```
+@import url('bevellier.css');
+```
+
+## 5.
+
+
+```
+font-family: 'Bevellier-Variable';
+font-family: 'Bevellier-VariableItalic';
+font-family: 'Bevellier-Thin';
+font-family: 'Bevellier-ThinItalic';
+font-family: 'Bevellier-Extralight';
+font-family: 'Bevellier-ExtralightItalic';
+font-family: 'Bevellier-Light';
+font-family: 'Bevellier-LightItalic';
+font-family: 'Bevellier-Regular';
+font-family: 'Bevellier-Italic';
+font-family: 'Bevellier-Medium';
+font-family: 'Bevellier-MediumItalic';
+font-family: 'Bevellier-Semibold';
+font-family: 'Bevellier-SemiboldItalic';
+font-family: 'Bevellier-Bold';
+font-family: 'Bevellier-BoldItalic';
+font-family: 'Bevellier-Black';
+font-family: 'Bevellier-BlackItalic';
+```
+

@@ -1,3 +1,5 @@
+@import url(bevellier.css);
+
 /* Grid */
 .layout { 
   display: grid; 
@@ -17,6 +19,9 @@
 
   grid-row-end: 2;
   grid-column-end: 2;
+
+  font-family: 'Bevellier-Light';
+  /* Cant get my text to change style */
   }
 
   .date { 
@@ -60,6 +65,7 @@ section {
 }
 
 .amOrPM {
+  font-family: 'Bevellier-Light';
   
 }
 
