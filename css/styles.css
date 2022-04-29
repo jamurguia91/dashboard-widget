@@ -19,9 +19,6 @@
 
   grid-row-end: 2;
   grid-column-end: 2;
-
-  font-family: 'Satoshi-Light';
-  /* Cant get my text to change style */
   }
 
   .date { 
@@ -53,6 +50,8 @@ section {
 
 /* Time */
 .time {
+  font-family: 'Satoshi-Light';
+  /* Cant get my text to change style */
 }
 
 .hours {
@@ -71,19 +70,22 @@ section {
 
 /* Date */
 .date {
-  
+  font-size: 60px;
 }
 
 .month {
+  font-size: 48px;
 }
 
 .dayOfMonth {
+  /* Not sure what this does */
 }
 
 .year {
 }
 
 .dayOfWeek {
+  font-size: 108px;
 }
 
 /* Weather */
