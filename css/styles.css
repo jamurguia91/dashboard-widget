@@ -55,18 +55,21 @@ section {
   align-items: center;
   padding-top: 4px;
 
-
+  font-size: 18px;
   font-family: 'Satoshi-Light';
   /* Cant get my text to change style */
 }
 
 .hours {
+  font-size: 64px;
 }
 
 .minutes {
+  font-size: 64px;
 }
 
 .seconds {
+  display: none;
 }
 
 .amOrPM {
@@ -118,3 +121,5 @@ section {
 .weather img {
   
 }
+
+/* How do i chnage the colon size */
