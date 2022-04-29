@@ -75,7 +75,11 @@ section {
 
 /* Date */
 .date {
-  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 32px;
 }
 
 .month {
@@ -90,7 +94,7 @@ section {
 }
 
 .dayOfWeek {
-  font-size: 108px;
+  font-size: 48px;
 }
 
 /* Weather */
