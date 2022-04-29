@@ -50,6 +50,11 @@ section {
 
 /* Time */
 .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
   font-family: 'Satoshi-Light';
   /* Cant get my text to change style */
 }
