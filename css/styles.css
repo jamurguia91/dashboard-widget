@@ -23,20 +23,20 @@
 
   .date { 
     background-color: #CF996D; 
-    grid-row-start: 2;
-    grid-column-start: 1;
- 
-    grid-row-end: 4;
-    grid-column-end: 3;
-   } 
-
-  .weather { 
-    background-color: #B8577D; 
-   grid-row-start: 1;
+    grid-row-start: 1;
    grid-column-start: 2;
 
    grid-row-end: 2;
    grid-column-end: 3;
+   } 
+
+  .weather { 
+    background-color: #B8577D; 
+       grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
    } 
 
 /* Widgets */
@@ -79,12 +79,10 @@ section {
 
 /* Date */
 .date {
-  display: flex;
+    display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-bottom: 16px;
-  font-size: 32px;
+  align-items: center;
+  padding-top: 4px;
 }
 
 .month {
@@ -106,8 +104,10 @@ section {
 .weather {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 4px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-bottom: 16px;
+  font-size: 32px;
 }
 
 .city {
