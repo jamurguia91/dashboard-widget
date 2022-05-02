@@ -56,7 +56,7 @@ section {
   padding-top: 4px;
 
   font-size: 18px;
-  font-family: 'Satoshi-Light';
+  /* font-family: 'Satoshi-Regular'; */
   /* Cant get my text to change style */
 }
 
@@ -87,6 +87,7 @@ section {
 
 .month {
   font-size: 48px;
+  font-family: 'Satoshi-Regular';
 }
 
 .dayOfMonth {
@@ -130,4 +131,5 @@ h1 {
 /* How do i get rid of the colon */
 
 /* How would I make weather image dynamic? */
+/* -- it might already be, was clouds before, then turned into orange ball */
 /* How would I make background dynamic based on time of day? */
