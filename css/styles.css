@@ -8,9 +8,10 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px; 
   justify-content: center;
-  width: 100vw;
+  width: 200%;
   height: 100vh;
   /* would like to center the entire layout in the center of page */
+  /* Had to change the width to 200 so widget could span entire page */
   }
   .time {
     background-color: #699DFD; 
@@ -61,11 +62,13 @@ section {
 }
 
 .hours {
-  font-size: 64px;
+  font-size: 3rem;
+  font-family: 'Satoshi-Regular';
 }
 
 .minutes {
-  font-size: 64px;
+  font-size: 3rem;
+  font-family: 'Satoshi-Regular';
 }
 
 .seconds {
@@ -73,7 +76,8 @@ section {
 }
 
 .amOrPM {
-  font-family: 'Bevellier-Light';
+  font-family: 'Satoshi-Medium';
+  font-size: 1.25rem;
   
 }
 
@@ -86,19 +90,24 @@ section {
 }
 
 .month {
-  font-size: 48px;
-  font-family: 'Satoshi-Regular';
+  font-size: 2rem;
+  font-family: 'Satoshi-Light';
 }
 
 .dayOfMonth {
-  /* Not sure what this does */
+  font-size: 2rem;
+  font-family: 'Satoshi-Light';
+  /* In numeral */
 }
 
 .year {
+  font-family: 'Satoshi-light';
+  font-size: 1.85rem;
 }
 
 .dayOfWeek {
-  font-size: 48px;
+  font-size: 2.25rem;
+  font-family: 'Satoshi-Regular';
 }
 
 /* Weather */
@@ -112,11 +121,13 @@ section {
 }
 
 .city {
-  
+  font-size: 2.25rem;
+  font-family: 'Satoshi-Regular';
 }
 
 .temp {
-  
+  font-size: 2rem;
+  font-family: 'Satoshi-Light';
 }
 
 .weather img {
@@ -127,8 +138,13 @@ h1 {
   display: none;
 }
 
-/* How do i chnage the colon size */
+/* How do i change the colon size */
 /* How do i get rid of the colon */
+
+/* How do i change the hyphen size */
+/* How do i get rid of the hyphen */
+
+/* Can I change the Farenheit to suit my typeface */
 
 /* How would I make weather image dynamic? */
 /* -- it might already be, was clouds before, then turned into orange ball */
