@@ -16,3 +16,5 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 ## Citations
 List your sources here
 grid generator used - [https://angrytools.com/css-grid/]
+satoshi typeface - [https://www.fontshare.com/]
+CSS related help - [https://css-tricks.com/]

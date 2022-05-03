@@ -24,6 +24,9 @@ fetch(url)
     <h1>Weather</h1>
     <data value="${data.name}" class="city">${data.name}</data>
     <data value="${data.main.temp}" class="temp">${data.main.temp}&#8457;</data>
+
+    <data value="${data.main.humidity}" class="temp">${data.main.humidity}&#37;Humidity</data>
+
     <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Placeholder">
   `;
   
