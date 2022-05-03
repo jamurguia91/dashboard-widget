@@ -25,9 +25,9 @@ fetch(url)
     <data value="${data.name}" class="city">${data.name}</data>
     <data value="${data.main.temp}" class="temp">${data.main.temp}&#8457;</data>
 
-    <data value="${data.main.humidity}" class="temp">${data.main.humidity}&#37;Humidity</data>
+    <data value="${data.main.humidity}" class="temp">${data.main.humidity}&#37;R.H.</data>
 
-    <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="Placeholder">
+    <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png" alt="Placeholder">
   `;
   
   // Insert dynamic template to container
