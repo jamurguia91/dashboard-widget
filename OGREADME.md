@@ -18,3 +18,4 @@ List your sources here
 grid generator used - [https://angrytools.com/css-grid/]
 satoshi typeface - [https://www.fontshare.com/]
 CSS related help - [https://css-tricks.com/]
+chaining multiple CSS to one line - [https://stackoverflow.com/]

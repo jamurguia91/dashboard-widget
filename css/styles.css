@@ -154,6 +154,17 @@ img {
   color: #b5b0c2;
   cursor: wait;
 }
+.dayOfWeek:hover, .month:hover, .dayOfMonth:hover, .year:hover {
+  color: #b5b0c2;
+  cursor:crosshair;
+}
+img:hover {
+  cursor: no-drop;
+}
+.temp:hover, .city:hover {
+  cursor: default;
+  color: #553d94;
+}
 
 
 /* How do i change the colon size */
