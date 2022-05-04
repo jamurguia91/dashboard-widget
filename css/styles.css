@@ -14,7 +14,8 @@
   /* Had to change the width to 200 so widget could span entire page */
   }
   .time {
-    background-color: #699DFD; 
+    background-color: #b5b0c2
+    ; 
   grid-row-start: 1;
   grid-column-start: 1;
 
@@ -23,7 +24,7 @@
   }
 
   .date { 
-    background-color: #CF996D; 
+    background-color: #9f8ad4; 
     grid-row-start: 1;
    grid-column-start: 2;
 
@@ -32,7 +33,7 @@
    } 
 
   .weather { 
-    background-color: #B8577D; 
+    background-color: #b5b0c2; 
        grid-row-start: 2;
     grid-column-start: 1;
  
@@ -57,6 +58,7 @@ section {
   padding-top: 4px;
 
   font-size: 18px;
+  color: #553d94;
   /* font-family: 'Satoshi-Regular'; */
   /* Cant get my text to change style */
 }
@@ -92,22 +94,26 @@ section {
 .month {
   font-size: 2rem;
   font-family: 'Satoshi-Light';
+  color: #553d94;
 }
 
 .dayOfMonth {
   font-size: 2rem;
   font-family: 'Satoshi-Light';
   /* In numeral */
+  color: #553d94;
 }
 
 .year {
   font-family: 'Satoshi-light';
   font-size: 1.85rem;
+  color: #553d94;
 }
 
 .dayOfWeek {
   font-size: 2.25rem;
   font-family: 'Satoshi-Regular';
+  color: #553d94;
 }
 
 /* Weather */
@@ -118,6 +124,7 @@ section {
   align-items: flex-start;
   padding-bottom: 16px;
   font-size: 32px;
+  color: #553d94;
 }
 
 .city {
