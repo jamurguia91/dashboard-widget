@@ -150,6 +150,19 @@ img {
   margin-right: auto;
 }
 
+.amOrPM:hover {
+  color: #b5b0c2;
+  cursor: wait;
+}
+.minutes:hover {
+  color: #b5b0c2;
+  cursor: wait;
+}
+.hours:hover {
+  color: #b5b0c2;
+  cursor: wait;
+}
+
 /* How do i change the colon size */
 /* How do i get rid of the colon */
 
